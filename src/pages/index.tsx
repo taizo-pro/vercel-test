@@ -1,9 +1,5 @@
-import { DashboardPage } from 'components/pages/Dashboard/Dashboard'
-import type { NextPage } from 'next'
 import React from 'react'
 
-const Home: NextPage = () => {
-  return <DashboardPage />
+export default function Page() {
+  return (<div>test</div>)
 }
-
-export default Home
